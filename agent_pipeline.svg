@@ -1,0 +1,94 @@
+<svg viewBox="0 0 900 340" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="900" height="340" fill="#ffffff"></rect>
+
+  <!-- Title -->
+  <text x="450" y="35" text-anchor="middle" font-size="20" font-weight="600" fill="#222">
+    5-Agent Pipeline
+  </text>
+
+  <!-- Agent 1 -->
+  <rect x="20" y="60" width="150" height="200" rx="10" fill="none" stroke="#333"></rect>
+  <text x="95" y="105" text-anchor="middle" font-size="13" font-weight="600" fill="#222">Agent 1</text>
+  <text x="95" y="125" text-anchor="middle" font-size="11" fill="#444">PDF Reader</text>
+  <line x1="30" y1="140" x2="160" y2="140" stroke="#bbb"></line>
+  <text x="95" y="160" text-anchor="middle" font-size="10" fill="#555">Scans all chunks</text>
+  <text x="95" y="178" text-anchor="middle" font-size="10" fill="#555">Finds topics</text>
+  <text x="95" y="196" text-anchor="middle" font-size="10" fill="#555">Detects gaps</text>
+  <text x="95" y="214" text-anchor="middle" font-size="10" fill="#555">Study order</text>
+  <text x="95" y="240" text-anchor="middle" font-size="10" fill="#333">~10 seconds</text>
+
+  <!-- Arrow 1→2 -->
+  <line x1="170" y1="160" x2="190" y2="160" stroke="#333" marker-end="url(#arrow)"></line>
+
+  <!-- Agent 2 -->
+  <rect x="195" y="60" width="150" height="200" rx="10" fill="none" stroke="#333"></rect>
+  <text x="270" y="105" text-anchor="middle" font-size="13" font-weight="600" fill="#222">Agent 2</text>
+  <text x="270" y="125" text-anchor="middle" font-size="11" fill="#444">Web Researcher</text>
+  <line x1="205" y1="140" x2="335" y2="140" stroke="#bbb"></line>
+  <text x="270" y="160" text-anchor="middle" font-size="10" fill="#555">Search</text>
+  <text x="270" y="178" text-anchor="middle" font-size="10" fill="#555">Selects sources</text>
+  <text x="270" y="196" text-anchor="middle" font-size="10" fill="#555">Scrapes content</text>
+  <text x="270" y="214" text-anchor="middle" font-size="10" fill="#555">Cleans data</text>
+  <text x="270" y="240" text-anchor="middle" font-size="10" fill="#333">~15s / topic</text>
+
+  <!-- Arrow 2→3 -->
+  <line x1="345" y1="160" x2="365" y2="160" stroke="#333" marker-end="url(#arrow)"></line>
+
+  <!-- Agent 3 -->
+  <rect x="370" y="60" width="150" height="200" rx="10" fill="none" stroke="#333"></rect>
+  <text x="445" y="105" text-anchor="middle" font-size="13" font-weight="600" fill="#222">Agent 3</text>
+  <text x="445" y="125" text-anchor="middle" font-size="11" fill="#444">Notes Analyst</text>
+  <line x1="380" y1="140" x2="510" y2="140" stroke="#bbb"></line>
+  <text x="445" y="160" text-anchor="middle" font-size="10" fill="#555">Vector search</text>
+  <text x="445" y="178" text-anchor="middle" font-size="10" fill="#555">PDF chunks</text>
+  <text x="445" y="196" text-anchor="middle" font-size="10" fill="#555">Context linking</text>
+  <text x="445" y="214" text-anchor="middle" font-size="10" fill="#555">Personalization</text>
+  <text x="445" y="240" text-anchor="middle" font-size="10" fill="#333">~15s / topic</text>
+
+  <!-- Arrow 3→4 -->
+  <line x1="520" y1="160" x2="540" y2="160" stroke="#333" marker-end="url(#arrow)"></line>
+
+  <!-- Agent 4 -->
+  <rect x="545" y="60" width="150" height="200" rx="10" fill="none" stroke="#333"></rect>
+  <text x="620" y="105" text-anchor="middle" font-size="13" font-weight="600" fill="#222">Agent 4</text>
+  <text x="620" y="125" text-anchor="middle" font-size="11" fill="#444">Synthesizer</text>
+  <line x1="555" y1="140" x2="685" y2="140" stroke="#bbb"></line>
+  <text x="620" y="160" text-anchor="middle" font-size="10" fill="#555">Simple explanation</text>
+  <text x="620" y="178" text-anchor="middle" font-size="10" fill="#555">Detailed explanation</text>
+  <text x="620" y="196" text-anchor="middle" font-size="10" fill="#555">Code generation</text>
+  <text x="620" y="214" text-anchor="middle" font-size="10" fill="#555">Quiz creation</text>
+  <text x="620" y="240" text-anchor="middle" font-size="10" fill="#333">~20s / topic</text>
+
+  <!-- Arrow 4→5 -->
+  <line x1="695" y1="160" x2="715" y2="160" stroke="#333" marker-end="url(#arrow)"></line>
+
+  <!-- Agent 5 -->
+  <rect x="720" y="60" width="160" height="200" rx="10" fill="none" stroke="#333"></rect>
+  <text x="800" y="105" text-anchor="middle" font-size="13" font-weight="600" fill="#222">Agent 5</text>
+  <text x="800" y="125" text-anchor="middle" font-size="11" fill="#444">Tutor</text>
+  <line x1="730" y1="140" x2="870" y2="140" stroke="#bbb"></line>
+  <text x="800" y="160" text-anchor="middle" font-size="10" fill="#555">Conversation memory</text>
+  <text x="800" y="178" text-anchor="middle" font-size="10" fill="#555">Context usage</text>
+  <text x="800" y="196" text-anchor="middle" font-size="10" fill="#555">Streaming output</text>
+  <text x="800" y="214" text-anchor="middle" font-size="10" fill="#555">Follow-ups</text>
+  <text x="800" y="240" text-anchor="middle" font-size="10" fill="#333">~3–5s / reply</text>
+
+  <!-- Bottom Info -->
+  <rect x="20" y="280" width="860" height="45" rx="8" fill="none" stroke="#333"></rect>
+  <text x="450" y="300" text-anchor="middle" font-size="12" fill="#222">
+    LLM: llama-3.1-8b-instant | Embeddings: embedding-001 | Orchestration: LangGraph
+  </text>
+  <text x="450" y="318" text-anchor="middle" font-size="11" fill="#444">
+    Agents 1-4 run once per topic | Agent 5 handles follow-up queries
+  </text>
+
+  <!-- Arrow Marker -->
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0,8 3,0 6" fill="#333"></polygon>
+    </marker>
+  </defs>
+
+</svg>

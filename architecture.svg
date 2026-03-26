@@ -1,0 +1,101 @@
+<svg viewBox="0 0 900 650" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="900" height="650" fill="#ffffff"></rect>
+
+  <!-- Title -->
+  <text x="450" y="40" text-anchor="middle" font-size="22" font-weight="600" fill="#222">
+    Student Study Assistant — System Architecture
+  </text>
+
+  <!-- PDF Upload -->
+  <rect x="350" y="80" width="200" height="50" rx="8" fill="none" stroke="#333"></rect>
+  <text x="450" y="108" text-anchor="middle" font-size="13" fill="#222">
+    Student Uploads PDF
+  </text>
+
+  <!-- Arrow -->
+  <line x1="450" y1="140" x2="450" y2="165" stroke="#444" marker-end="url(#arrow)"></line>
+
+  <!-- RAG Engine -->
+  <rect x="275" y="175" width="350" height="55" rx="8" fill="none" stroke="#333"></rect>
+  <text x="450" y="200" text-anchor="middle" font-size="13" fill="#222">
+    RAG Engine (Chunking + Vector DB)
+  </text>
+
+  <!-- Arrow -->
+  <line x1="450" y1="240" x2="450" y2="265" stroke="#444" marker-end="url(#arrow)"></line>
+
+  <!-- LangGraph Container -->
+  <rect x="200" y="275" width="500" height="190" rx="10" fill="none" stroke="#333"></rect>
+  <text x="450" y="300" text-anchor="middle" font-size="14" fill="#222">
+    LangGraph Pipeline
+  </text>
+
+  <!-- Agent 1 -->
+  <rect x="220" y="320" width="140" height="50" rx="6" fill="none" stroke="#333"></rect>
+  <text x="290" y="350" text-anchor="middle" font-size="12">Agent 1</text>
+
+  <!-- Agent 2 -->
+  <rect x="380" y="320" width="140" height="50" rx="6" fill="none" stroke="#333"></rect>
+  <text x="450" y="350" text-anchor="middle" font-size="12">Agent 2</text>
+
+  <!-- Agent 3 -->
+  <rect x="540" y="320" width="140" height="50" rx="6" fill="none" stroke="#333"></rect>
+  <text x="610" y="350" text-anchor="middle" font-size="12">Agent 3</text>
+
+  <!-- Arrows between agents (with gap) -->
+  <line x1="360" y1="345" x2="375" y2="345" stroke="#444" marker-end="url(#arrow)"></line>
+  <line x1="520" y1="345" x2="535" y2="345" stroke="#444" marker-end="url(#arrow)"></line>
+
+  <!-- Agent 4 -->
+  <rect x="300" y="390" width="300" height="60" rx="6" fill="none" stroke="#333"></rect>
+  <text x="450" y="420" text-anchor="middle" font-size="12">
+    Agent 4 — Synthesizer
+  </text>
+
+  <!-- Arrow down -->
+  <line x1="450" y1="370" x2="450" y2="390" stroke="#444" marker-end="url(#arrow)"></line>
+
+  <!-- Arrow to DB -->
+  <line x1="450" y1="455" x2="450" y2="480" stroke="#444" marker-end="url(#arrow)"></line>
+
+  <!-- Database -->
+  <rect x="260" y="490" width="380" height="55" rx="8" fill="none" stroke="#333"></rect>
+  <text x="450" y="520" text-anchor="middle" font-size="13">
+    SQLite Database
+  </text>
+
+  <!-- Agent 5 -->
+  <rect x="60" y="490" width="180" height="55" rx="8" fill="none" stroke="#333"></rect>
+  <text x="150" y="520" text-anchor="middle" font-size="12">
+    Agent 5 — Tutor
+  </text>
+
+  <!-- Spaced Repetition -->
+  <rect x="660" y="490" width="180" height="55" rx="8" fill="none" stroke="#333"></rect>
+  <text x="750" y="520" text-anchor="middle" font-size="12">
+    Spaced Repetition
+  </text>
+
+  <!-- Side arrows -->
+  <line x1="260" y1="517" x2="240" y2="517" stroke="#444" marker-end="url(#arrow)"></line>
+  <line x1="640" y1="517" x2="660" y2="517" stroke="#444" marker-end="url(#arrow)"></line>
+
+  <!-- Arrow to UI -->
+  <line x1="450" y1="550" x2="450" y2="575" stroke="#444" marker-end="url(#arrow)"></line>
+
+  <!-- UI -->
+  <rect x="200" y="585" width="500" height="60" rx="10" fill="none" stroke="#333"></rect>
+  <text x="450" y="615" text-anchor="middle" font-size="14">
+    Streamlit UI
+  </text>
+
+  <!-- Arrow definition -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#444"></polygon>
+    </marker>
+  </defs>
+
+</svg>
